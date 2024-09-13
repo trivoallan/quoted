@@ -8,7 +8,7 @@ Ce template de dépôt permet de générer des projets PHP basés sur le microfr
 
 ```shell
 cd public/
-php -S localhost:8888
+php -S localhost:8080
 ```
 
-Pour y accéder : <http://localhost:8888>
+Pour y accéder : <http://localhost:8080>
