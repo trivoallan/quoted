@@ -9,11 +9,16 @@
 
 <body>
     <h1>Source</h1>
-    <pre>{{ source }}</pre>
+    <p>{{ source }}</p>
 
     <h1>Résultat</h1>
-    <pre>{{ result.label }}</pre>
-    <pre>{{ result.score }}</pre>
+    <p>{{ summarized_text }}</p>
+    {# {% for entity in output %}
+    <pre>{{ entity.entity_group}}
+    {{ entity.word}}
+    {{ entity.score}}</pre>
+    {% endfor %} #}
+
 </body>
 
 </html>
