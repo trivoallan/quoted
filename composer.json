@@ -1,9 +1,14 @@
 {
     "require": {
-        "slim/slim": "4.*",
+        "codewithkyrian/transformers": "^0.5.2",
+        "slim/php-view": "^3.4",
         "slim/psr7": "^1.7",
-        "textrazor/textrazor-php": "^1.0",
-        "slim/twig-view": "^3.4",
-        "slim/php-view": "^3.4"
+        "slim/slim": "4.*",
+        "slim/twig-view": "^3.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "codewithkyrian/transformers-libsloader": true
+        }
     }
 }
