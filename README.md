@@ -1,14 +1,21 @@
-# racounette
+# quoted.ai
 
-Ce template de dépôt permet de générer des projets PHP basés sur le microframework <https://www.slimframework.com>.
+## Guides
 
-## Recettes
+### Développement
 
-### Démarrer le serveur de développement
+#### Mise en route
 
-```shell
-cd public/
-php -S localhost:8080
-```
+- Installer les dépendances :
+   ```sh
+    make install
+    ```
 
-Pour y accéder : <http://localhost:8080>
+- Démarrer le serveur de développement
+
+    ```shell
+    make serve
+    ```
+
+L'application est accessible à l'adresse <http://localhost:8080>.
+

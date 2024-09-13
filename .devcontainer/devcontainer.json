@@ -17,7 +17,7 @@
 	// "forwardPorts": [8888],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "cd public && php -S 0.0.0.0:8080",
+	"postCreateCommand": "make install && make serve",
 	"features": {
 		"ghcr.io/opencodeco/devcontainers/install-php-extensions:0": {
 			"extensions": "ffi"

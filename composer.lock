@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cacb46069d894bcbcd942d2f1a564a04",
+    "content-hash": "da85096374148a0e85da5dc6acc13a56",
     "packages": [
         {
             "name": "codewithkyrian/jinja-php",
@@ -2181,47 +2181,6 @@
                 }
             ],
             "time": "2024-08-12T09:59:40+00:00"
-        },
-        {
-            "name": "textrazor/textrazor-php",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TextRazor/textrazor-php.git",
-                "reference": "c6c0cab6212d74033afed8a355c4897d86463aa4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TextRazor/textrazor-php/zipball/c6c0cab6212d74033afed8a355c4897d86463aa4",
-                "reference": "c6c0cab6212d74033afed8a355c4897d86463aa4",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "."
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "PHP SDK for the TextRazor Text Analytics API",
-            "homepage": "https://github.com/TextRazor/textrazor-php",
-            "keywords": [
-                "TextRazor",
-                "api",
-                "client"
-            ],
-            "support": {
-                "issues": "https://github.com/TextRazor/textrazor-php/issues",
-                "source": "https://github.com/TextRazor/textrazor-php/tree/1.0.1"
-            },
-            "time": "2022-03-08T11:21:25+00:00"
         },
         {
             "name": "twig/twig",
